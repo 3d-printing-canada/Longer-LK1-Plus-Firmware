@@ -4,10 +4,15 @@ In this guide we'll show you how to install and upload firmware and hardware for
 
 # Bill Of Materials
 - BL touch: https://3dprintingcanada.com/products/genuine-antclabs-bltouch-sensor
-- EX-2000 Extension Cable: https://3dprintingcanada.com/products/genuine-antclabs-bltouch-extension-cables
+- XD-2000 Extension Cable: https://3dprintingcanada.com/collections/antclabs/products/copy-of-genuine-antclabs-bltouch-extension-cables-sm-xd-1800
+- 1/8th or 1/4 watt 1K resistor: https://www.amazon.ca/Projects-10EP5121K00-Ohm-Resistors-Pack/dp/B0185FK65K/ref=sr_1_16?keywords=1k+resistor&qid=1576351538&sr=8-16
 - BL Touch 3D Printed Mount: https://www.thingiverse.com/thing:3526108
 
 BUY THE COMPLETE KIT: COMING SOON.
+
+# Installation Procedure:
+
+Please see the youtube video here: 
 
 # Software Installation (For Standard & BL Touch Firmwares)
 
