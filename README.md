@@ -3,17 +3,22 @@
 In this guide we'll show you how to install and upload firmware and hardware for your BL touch on the Longer LK1/LK2. The standard (non BL touch) firmwares have also been uploaded. There are a couple variations of these printers, so there are some important points we need to note to do the conversion successfully:
 
 # Bill Of Materials
-BL touch: https://3dprintingcanada.com/products/genuine-antclabs-bltouch-sensor
-EX-1000 Extension Cable (For Longer LK2 / Alfawise U30 V0G MOTHERBOARD ONLY): https://3dprintingcanada.com/products/genuine-antclabs-bltouch-extension-cables
-BL Touch 3D Printed Mount: https://www.thingiverse.com/thing:3526108
-BUY THE COMPLETE KIT: https://3dprintingcanada.com/products/longer-lk2-alfawise-u30-bl-touch-kit This kit comes with everything you need for the modification, including a pre-soldered extension cable with integrated resistor
+- BL touch: https://3dprintingcanada.com/products/genuine-antclabs-bltouch-sensor
+- EX-2000 Extension Cable: https://3dprintingcanada.com/products/genuine-antclabs-bltouch-extension-cables
+- BL Touch 3D Printed Mount: https://www.thingiverse.com/thing:3526108
+
+BUY THE COMPLETE KIT: COMING SOON.
 
 # Software Installation (For Standard & BL Touch Firmwares)
-In the main folder you will see a '####_firmware.bin' file. Copy that folder onto your SD card and insert it into the printer. Turn the printer on and watch it upload.
-When you see the main info screen for marlin appear, turn the printer off. Insert your SD card into your computer again and delete '####_firmware.bin' (failure to do this will mean the firmware will reflash every time). IMPORTANT: You will notice there is now an EEPROM.dat file. DO NOT delete this - as it serves as the Eeprom for your printer (the memory).
-Re-insert your SD card
-Configuring the BL Touch
-NOTES: i) To navigate to a previous menu, you have to scroll to the top of your current menu and press the topmost option ii) The EEPROM data for the Z probe offset is stored on the SD card. If you start the printer without the SD card in it, that setting will not load properly. Always start your printer with the SD card in it.
+
+1)) In the main folder you will see a '####_firmware.bin' file. Copy that folder onto your SD card and insert it into the printer. Turn the printer on and watch it upload.
+2) When you see the main info screen for marlin appear, turn the printer off. Insert your SD card into your computer again and delete '####_firmware.bin' (failure to do this will mean the firmware will reflash every time). IMPORTANT: You will notice there is now an EEPROM.dat file. DO NOT delete this - as it serves as the Eeprom for your printer (the memory).
+3) Re-insert your SD card
+4) Configuring the BL Touch
+
+NOTES: 
+i) To navigate to a previous menu, you have to scroll to the top of your current menu and press the topmost option 
+ii) The EEPROM data for the Z probe offset is stored on the SD card. If you start the printer without the SD card in it, that setting will not load properly. Always start your printer with the SD card in it.
 
 Turn on your printer. You will notice you have three controls: two blue navigation arrows and a red select button.
 Press the select button and use the arrows to nativage to 'Temperature'.
