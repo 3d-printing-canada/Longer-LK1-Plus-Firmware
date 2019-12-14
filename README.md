@@ -11,7 +11,7 @@ BUY THE COMPLETE KIT: COMING SOON.
 
 # Software Installation (For Standard & BL Touch Firmwares)
 
-1)) In the main folder you will see a '####_firmware.bin' file. Copy that folder onto your SD card and insert it into the printer. Turn the printer on and watch it upload.
+1) In the main folder you will see a '####_firmware.bin' file. Copy that folder onto your SD card and insert it into the printer. Turn the printer on and watch it upload.
 2) When you see the main info screen for marlin appear, turn the printer off. Insert your SD card into your computer again and delete '####_firmware.bin' (failure to do this will mean the firmware will reflash every time). IMPORTANT: You will notice there is now an EEPROM.dat file. DO NOT delete this - as it serves as the Eeprom for your printer (the memory).
 3) Re-insert your SD card
 4) Configuring the BL Touch
